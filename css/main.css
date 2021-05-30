@@ -89,7 +89,7 @@ textarea {
    html {
     font-size:16px;
   }
-  
+
   body {
     align-items: center;
     display: flex;
@@ -97,16 +97,16 @@ textarea {
     font-size: 1em;
     justify-content: center;
   }
-  
+
   .container{
     max-width: 1200px;
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap; 
+    flex-flow: column wrap;
   }
-  
+
   h1,
   h2,
   h3 {
@@ -114,26 +114,26 @@ textarea {
     font-weight: 700;
     text-transform: uppercase;
   }
-  
+
   h1 {
     font-size: 1.875em;
   }
-  
+
   h2 {
     font-size: 1.125em;
   }
-  
+
   h3 {
     font-size: 0.75em;
   }
-  
+
   p {
     font-size: .875em;
     line-height: 1.3125em;
     padding: 0 30px;
   }
-  
-  
+
+
   /*The widths are in a percentage!*/
   header {
     width: 100%;
@@ -142,7 +142,7 @@ textarea {
     align-items: center;
     flex-flow: column;
   }
-  
+
   header h1 {
     border-bottom: 3px solid #77a466;
     margin: 0;
@@ -150,15 +150,15 @@ textarea {
     text-align: center;
     width: 100%;
   }
-  
+
   header h1 span {
     color: #77a466;
   }
-  
+
   header nav {
     padding: 10px 0;
   }
-  
+
   header nav ul {
     display: flex;
     flex-flow: column;
@@ -166,7 +166,7 @@ textarea {
     margin: 0;
     padding: 0;
   }
-  
+
   header nav ul li {
     flex-flow: row wrap;
     font-size: .875em;
@@ -176,12 +176,12 @@ textarea {
     padding: 1em;
     text-transform: uppercase;
   }
-  
+
   header nav ul li a{
     color:#77a466;
     text-decoration: none;
   }
-  
+
   /*The widths are in a percentage!*/
   .top-section,
   .bottom-section {
@@ -192,34 +192,34 @@ textarea {
     margin: 0 auto;
     width: 100%;
   }
-  
+
   .main-image {
     height: auto;
   }
-  
+
   .main-image img {
     border-bottom: 3px solid #77a466;
     width: 100%;
   }
-  
+
   .main-title {
     align-items: center;
     height: auto;
   }
-  
+
   .main-title h2 {
     color: #77a466;
     padding: 5px 0;
     text-align: left;
   }
-  
+
   .main-title p {
     font-size: 1em;
     justify-content: center;
     line-height: 1.75;
     padding: 0;
   }
-  
+
   .section-one,
   .section-two,
   .section-three {
@@ -227,7 +227,7 @@ textarea {
     height: auto;
     width: 100%;
   }
-  
+
   .section-one h3,
   .section-two h3,
   .section-three h3 {
@@ -237,14 +237,14 @@ textarea {
     justify-content: center;
     padding: 10px 0;
   }
-  
+
   li {
     align-items: center;
     display: flex;
     flex-flow: nowrap;
     justify-content: center;
   }
-  
+
   .section-two p,
   .section-three p {
     padding: 10px 0;
@@ -253,60 +253,62 @@ textarea {
     flex-flow: nowrap;
     justify-content: center;
   }
-  
+
   .menu {
     list-style: none;
     padding: 10px 0;
   }
-  
+
   .menu li {
     color:#77a466;
     padding: 10px 0;
   }
-  
+
   .reviews {
     color: #333;
     font-size: 1em;
     line-height: 1.3125em;
   }
-  
+
   p.address {
     font-size: 1em;
     line-height: 1.5em;
   }
-  
+
   /*The widths are in a percentage!*/
   footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-flow: row wrap;
+    height: 4.225em;
     border-top: 3px solid #eee;
     margin: 0 auto;
-    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: .75em;
   }
-  
+
+  footer h3 {
+    font-size: 1em;
+  }
+
   footer span {
-    color: #77a466;
     font-family: 'Galada', cursive;
-    font-size: .875em;
     text-transform: lowercase;
+    color: #77a466;
+    font-size: 1.167em;
   }
-  
+
   @media all and (min-width:768px) {
     /* Tablet styles here */
   .bottom-section {
     display: flex;
     flex-flow: row;
   }
-  
+
   .section-one,
   .section-two,
   .section-three {
     width: 33%;
   }
-  
+
   .section-one {
     padding-right: 1em;
   }
@@ -315,63 +317,63 @@ textarea {
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
   }
-  
+
   .section-three {
     padding-left: 1em;
   }
   }
-  
+
   @media all and (min-width:1200px) {
     /* Desktop styles here */
   .container {
     width: 100%;
   }
-  
+
   header {
     display: flex;
     flex-flow: row;
     margin: 2em 0;
   }
-  
+
     header h1 {
       border: none;
       text-align: left;
     }
-    
+
   header nav ul {
     display: flex;
     justify-content: space-between;
     flex-flow: row;
   }
-  
+
   .bottom-section {
     display: flex;
     flex-flow: row;
   }
-  
+
   .section-one,
   .section-two,
   .section-three {
     width: 33.3%;
   }
-  
+
   .section-one {
     padding-right: 1em;
   }
-  
+
   .section-two {
     padding: 0 1em;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
   }
-  
+
   .section-three {
     padding-left: 1em;
   }
   }
-  
+
   /*----End of Media Queries-----*/
-  
+
 
 /* ==========================================================================
    Helper classes
